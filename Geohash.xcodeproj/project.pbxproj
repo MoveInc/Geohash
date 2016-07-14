@@ -29,9 +29,9 @@
 		0D7E831D1CC27EAC000C5FE0 /* Geohash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geohash.h; sourceTree = "<group>"; };
 		0D7E831F1CC27EAC000C5FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D7E83241CC27EAC000C5FE0 /* GeohashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeohashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D7E83291CC27EAC000C5FE0 /* GeohashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeohashTests.swift; sourceTree = "<group>"; };
+		0D7E83291CC27EAC000C5FE0 /* GeohashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeohashTests.swift; path = ../Tests/Geohash/GeohashTests.swift; sourceTree = "<group>"; };
 		0D7E832B1CC27EAC000C5FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D7E83391CC32DD0000C5FE0 /* Geohash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geohash.swift; sourceTree = "<group>"; };
+		0D7E83391CC32DD0000C5FE0 /* Geohash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geohash.swift; path = ../Sources/Geohash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

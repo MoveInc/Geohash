@@ -20,8 +20,21 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-import UIKit
-import MapKit
+import Foundation
+//import MapKit
+#if os(OSX) || os(iOS)
+    import MapKit
+#elseif os(Linux)
+    typealias CLLocationDegrees = Double
+
+    public struct CLLocationCoordinate2D {
+        public var latitude: CLLocationDegrees
+        public var longitude: CLLocationDegrees
+        public init()
+        public init(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
+    }
+#endif
+
 
 class Geohash {
     static func decode(hash: String) -> (latitude: (min: Double, max: Double), longitude: (min: Double, max: Double))? {
