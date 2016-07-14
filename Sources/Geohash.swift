@@ -21,9 +21,9 @@
 // SOFTWARE.
 
 import Foundation
-//import MapKit
 #if os(OSX) || os(iOS)
-    import MapKit
+    import CoreLocation
+
 #elseif os(Linux)
     typealias CLLocationDegrees = Double
 
