@@ -82,7 +82,7 @@ class Geohash {
             }
         }
 
-        let lat = Array(repeating:latitude, count:length+5).reduce((-90.0, 90.0, [String]()), combine: combiner)
+        let lat = Array(repeating:latitude, count:length*5).reduce((-90.0, 90.0, [String]()), combine: combiner)
         // lat = (57.64911063015461, 57.649110630154766, [1,1,0,1,0,0,0,1,1,1,1,1,1,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,0,...])
         
         let lon = Array(repeating:longitude, count: length*5).reduce((-180.0, 180.0, [String]()), combine: combiner)
